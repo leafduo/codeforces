@@ -1,3 +1,5 @@
+# If any number occurs more than `(len(numbers) + 1) / 2` times, then it's not possible.
+
 if __name__ == '__main__':
     input()
     numbers = map(int, raw_input().split())
