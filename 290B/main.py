@@ -31,8 +31,7 @@ if __name__ == '__main__':
 101110100011010010010111111011010
 101110100100011011110110101110000
 100000100110011001111100111100000
-111111101101000101001101110010001'''
-    qr_code = qr_code.replace('\n', '')
+111111101101000101001101110010001'''.split()
     s = raw_input()
     row, col = [int(string) for string in s.split()]
-    print qr_code[row*33+col],
+    print qr_code[row][col],
